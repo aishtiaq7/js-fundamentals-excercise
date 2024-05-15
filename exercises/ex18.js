@@ -4,3 +4,11 @@ Write a named function expression that stores the function in a variable called 
 cry();
 Returns: boohoo!
 */
+
+var cry = function boohoo() {
+    return "boohoo!";
+  };
+  
+  // Example usage:
+  console.log(cry()); // "boohoo!"
+  
