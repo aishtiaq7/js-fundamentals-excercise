@@ -26,3 +26,23 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
+
+const shirtWidth = 23; // Change your shirt width to test your conditional statements
+const shirtLength = 30; // Change your shirt length to test your conditional statements
+const shirtSleeve = 8.71; // Change your shirt sleeve to test your conditional statements
+
+if (shirtWidth >= 18 && shirtWidth < 20 && shirtLength >= 28 && shirtLength < 29 && shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+  console.log("S");
+} else if (shirtWidth >= 20 && shirtWidth < 22 && shirtLength >= 29 && shirtLength < 30 && shirtSleeve >= 8.38 && shirtSleeve < 8.63) {
+  console.log("M");
+} else if (shirtWidth >= 22 && shirtWidth < 24 && shirtLength >= 30 && shirtLength < 31 && shirtSleeve >= 8.63 && shirtSleeve < 8.88) {
+  console.log("L");
+} else if (shirtWidth >= 24 && shirtWidth < 26 && shirtLength >= 31 && shirtLength < 33 && shirtSleeve >= 8.88 && shirtSleeve < 9.63) {
+  console.log("XL");
+} else if (shirtWidth >= 26 && shirtWidth < 28 && shirtLength >= 33 && shirtLength < 34 && shirtSleeve >= 9.63 && shirtSleeve < 10.13) {
+  console.log("2XL");
+} else if (shirtWidth >= 28 && shirtWidth < 30 && shirtLength >= 34 && shirtSleeve >= 10.13) {
+  console.log("3XL");
+} else {
+  console.log("NA");
+}

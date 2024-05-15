@@ -11,3 +11,13 @@ Fill in the blanks with the flavor of the ice cream, vessel, and toppings. For e
 
 I'd like two scoops of vanilla ice cream in a cone with peanuts. 
 */
+
+const flavor = "vanilla"; // Change your flavor to test your conditional statements
+const vessel = "cone"; // Change your vessel to test your conditional statements
+const toppings = "sprinkles"; // Change your toppings to test your conditional statements
+
+if ((flavor === "vanilla" || flavor === "chocolate") &&
+    (vessel === "cone" || vessel === "bowl") &&
+    (toppings === "sprinkles" || toppings === "peanuts")) {
+  console.log(`I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}.`);
+}
