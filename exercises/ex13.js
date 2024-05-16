@@ -11,8 +11,9 @@ Save your final answer in a variable called solution and print it to the console
 */
 
 let solution = 1;
+let factorial = 3;
 
-for (let i = 12; i > 0; i--) {
+for (let i = factorial; i > 0; i--) {
   solution *= i;
 }
 
