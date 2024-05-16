@@ -6,9 +6,8 @@ Returns: boohoo!
 */
 
 var cry = function boohoo() {
-    return "boohoo!";
-  };
-  
-  // Example usage:
-  console.log(cry()); // "boohoo!"
-  
+  return "boohoo!";
+};
+
+// Example usage:
+console.log(cry()); // "boohoo!"

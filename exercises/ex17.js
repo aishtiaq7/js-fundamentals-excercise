@@ -5,14 +5,13 @@ laugh(3);
 Returns: hahaha!
 */
 
-var laugh = function(num) {
-    var laughter = "";
-    for (var i = 0; i < num; i++) {
-      laughter += "ha";
-    }
-    return laughter + "!";
-  };
-  
-  // Example usage:
-  console.log(laugh(3)); // "hahaha!"
-  
+var laugh = function (num) {
+  var laughter = "";
+  for (var i = 0; i < num; i++) {
+    laughter += "ha";
+  }
+  return laughter + "!";
+};
+
+// Example usage:
+console.log(laugh(3)); // "hahaha!"

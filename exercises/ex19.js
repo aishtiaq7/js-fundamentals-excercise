@@ -6,15 +6,18 @@ Prints: "I am happy, haha!"
 */
 
 function emotions(myString, myFunc) {
-    console.log("I am " + myString + ", " + myFunc);
-  }
-  
-  // Example usage:
-  emotions("happy", (function(num) {
+  console.log('typeof myFunc:', typeof myFunc);
+  console.log("I am " + myString + ", " + myFunc);
+}
+
+// Example usage:
+emotions(
+  "happy",
+  (function (num) {
     var laughter = "";
     for (var i = 0; i < num; i++) {
       laughter += "ha";
     }
     return laughter + "!";
-  })(2)); // "I am happy, haha!"
-  
+  })(2)
+); // "I am happy, haha!"
