@@ -51,3 +51,9 @@ switch (education) {
 }
 
 console.log(`In 2015, a person with ${education} earned an average of $${salary.toLocaleString("en-US")}/year.`);
+console.log(salary.toLocaleString('en-US', { minimumFractionDigits: 3, maximumFractionDigits: 3 }));
+
+/*
+  ToLocaleString Documentation: 
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
+*/ 
