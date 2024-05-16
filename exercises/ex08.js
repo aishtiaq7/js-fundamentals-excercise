@@ -27,3 +27,36 @@ while (x <= 100) {
   }
   x++;
 }
+
+
+
+
+// const readline = require("readline");
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Input number: ", (name) => {
+//   const number = parseInt(name, 10);  // Change your number to test your if statement
+//   // console.log(`got: ${typeof number}, type of ${typeof number}`);
+
+//   /*
+//       Insert testing code here: 
+//   */
+//   var x = name;
+//   // console.log('x:',typeof x);
+//   // while (x <= 100)
+//   {
+//     if (x % 3 === 0 && x % 5 === 0) {
+//       console.log("FizzBuzz");
+//     } else if (x % 3 === 0) {
+//       console.log("Fizz");
+//     } else if (x % 5 === 0) {
+//       console.log("Buzz"); 
+//     } else {
+//       console.log(x);
+//     }
+//     // x++;
+//   }
+// });
